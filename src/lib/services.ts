@@ -1,3 +1,4 @@
+
 import type { Service } from './data';
 
 export const services: Service[] = [
@@ -71,26 +72,28 @@ export const services: Service[] = [
     ],
   },
   {
-    title: 'AI Web Development',
-    shortBio: 'Websites from scratch with AI-powered speed and functionality.',
-    price: '₹1k–₹5k',
-    icon: "✨",
+    title: 'Web Development Services',
+    shortBio: `**Industry-Specific Market Pricing (India – 2025)**
+- Static Landing Page: ₹3,000 – ₹8,000 (2–4 Days)
+- Business Portfolio Site: ₹7,000 – ₹15,000 (4–7 Days)
+- Dynamic Website: ₹15,000 – ₹35,000 (1–2 Weeks)`,
+    price: 'From ₹3,000',
+    icon: "💻",
     tool: "Webflow",
     bgColor: "bg-pink-100",
     whatIProvide: [
-      'AI-assisted website creation',
-      'Landing page development',
-      'API integration',
-      'Speed optimization',
-      'CMS setup (WordPress, custom, etc.)',
+      'Custom Websites – Modern, responsive, and SEO-friendly designs.',
+      'Landing Pages – High-converting layouts for campaigns & ads.',
+      'Frontend Development – Pixel-perfect UI with smooth animations.',
+      'Dynamic Websites – Content-driven, user-interactive, and trend-focused.',
+      'Portfolio & Business Sites – Professional presence for personal branding or companies.',
     ],
-    tags: ['AI Web Dev', 'Landing Pages', 'API Integration', 'Website Speed', 'CMS', 'Automation'],
+    tags: ['WebDevelopment', 'LandingPageDesign', 'FrontendDeveloper', 'DynamicWebsite', 'ResponsiveDesign', 'SEO', 'CustomWebSolutions', 'IndiaWebDesign2025'],
     whyWorkWithMe: [
-      'Faster delivery with AI tools',
-      'Clean, modern coding standards',
-      'Fully responsive & SEO-ready',
-      'Easy-to-manage backend',
-      'Affordable pricing for startups',
+      'Pixel-Perfect Design – Every element crafted with attention to detail.',
+      'Fast Loading & Mobile Friendly – Optimized for all devices.',
+      'Market-Tuned Strategies – Designs that match 2025’s trends and user expectations.',
+      'Affordable & Transparent Pricing – No hidden charges, clear deliverables.',
     ],
   },
   {
