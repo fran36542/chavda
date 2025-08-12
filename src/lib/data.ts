@@ -6,6 +6,11 @@ export type Service = {
   tool: string;
   bgColor: string;
   whatIProvide: string[];
+  pricingTiers?: {
+    service: string;
+    price: string;
+    delivery: string;
+  }[];
   tags: string[];
   whyWorkWithMe: string[];
 };

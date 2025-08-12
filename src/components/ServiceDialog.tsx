@@ -13,6 +13,7 @@ import { Button } from "./ui/button";
 import ContactDialog from "./ContactDialog";
 import { Dialog, DialogTrigger } from "./ui/dialog";
 import { CheckCircle, Linkedin, MessageSquare } from "lucide-react";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
 
 type ServiceDialogProps = {
   service: Service;
@@ -29,6 +30,31 @@ const ServiceDialog = ({ service }: ServiceDialogProps) => {
           {service.shortBio}
         </DialogDescription>
       </DialogHeader>
+
+      {service.pricingTiers && (
+        <div className="py-4">
+            <h4 className="font-semibold mb-2">Industry-Specific Market Pricing (India – 2025)</h4>
+            <Table>
+                <TableHeader>
+                    <TableRow>
+                        <TableHead>Service</TableHead>
+                        <TableHead>Price Range (₹)</TableHead>
+                        <TableHead>Delivery Time</TableHead>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    {service.pricingTiers.map((tier) => (
+                        <TableRow key={tier.service}>
+                            <TableCell className="font-medium">{tier.service}</TableCell>
+                            <TableCell>{tier.price}</TableCell>
+                            <TableCell>{tier.delivery}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </div>
+      )}
+
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-4">
         <div>

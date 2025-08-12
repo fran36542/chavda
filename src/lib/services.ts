@@ -73,10 +73,7 @@ export const services: Service[] = [
   },
   {
     title: 'Web Development Services',
-    shortBio: `**Industry-Specific Market Pricing (India – 2025)**
-- Static Landing Page: ₹3,000 – ₹8,000 (2–4 Days)
-- Business Portfolio Site: ₹7,000 – ₹15,000 (4–7 Days)
-- Dynamic Website: ₹15,000 – ₹35,000 (1–2 Weeks)`,
+    shortBio: 'Custom web solutions from landing pages to dynamic sites, built with modern practices.',
     price: 'From ₹3,000',
     icon: "💻",
     tool: "Webflow",
@@ -87,6 +84,11 @@ export const services: Service[] = [
       'Frontend Development – Pixel-perfect UI with smooth animations.',
       'Dynamic Websites – Content-driven, user-interactive, and trend-focused.',
       'Portfolio & Business Sites – Professional presence for personal branding or companies.',
+    ],
+    pricingTiers: [
+        { service: 'Static Landing Page', price: '₹3,000 – ₹8,000', delivery: '2–4 Days' },
+        { service: 'Business Portfolio Site', price: '₹7,000 – ₹15,000', delivery: '4–7 Days' },
+        { service: 'Dynamic Website', price: '₹15,000 – ₹35,000', delivery: '1–2 Weeks' }
     ],
     tags: ['WebDevelopment', 'LandingPageDesign', 'FrontendDeveloper', 'DynamicWebsite', 'ResponsiveDesign', 'SEO', 'CustomWebSolutions', 'IndiaWebDesign2025'],
     whyWorkWithMe: [
