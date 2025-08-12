@@ -1,20 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Logo from "./Logo";
 
 const Copyright = () => {
-  const [year, setYear] = useState<number | null>(null);
-
-  useEffect(() => {
-    setYear(new Date().getFullYear());
-  }, []);
-
-  if (!year) {
-    return null;
-  }
-
-  return <>Copyright Portfolio {year}</>;
+  return <>Copyright Portfolio 2024</>;
 };
 
 const Footer = () => {
