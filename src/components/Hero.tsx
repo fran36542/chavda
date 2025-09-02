@@ -13,7 +13,7 @@ const DefaultHero = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4 mb-4">
           <div className="relative w-24 h-24 rounded-full overflow-hidden">
             <Image 
-              src="https://media.licdn.com/dms/image/v2/D5603AQENok58Sbf9wg/profile-displayphoto-scale_400_400/B56Zhw84aIHkAg-/0/1754241668286?e=1758153600&v=beta&t=korki11dFiN1y7ssVtApoHG17COqpB5PKcvof5_RWbo"
+              src="https://media.licdn.com/dms/image/v2/D5635AQHeAb6CvD2Vqw/profile-framedphoto-shrink_200_200/B56ZkFr69.IAAk-/0/1756737024292?e=1757415600&v=beta&t=J-9Pjpbk0uRoynD4gBpG9FP4JaPzmfazI0Rcjpx_PAI"
               alt="Fuya" 
               width={100}
               height={100}
