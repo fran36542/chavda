@@ -360,6 +360,82 @@ export const projects: Project[] = [
       'https://media.licdn.com/dms/image/v2/D5622AQHNoaZtam2Lfw/feedshare-shrink_1280/B56ZgOVvkXHQAk-/0/1752587240046?e=1758153600&v=beta&t=Vm1l56UhYSAM8jeNOAMFANFsJtzk5c5t9M1zmQ4Dp04',
       'https://media.licdn.com/dms/image/v2/D5622AQGnzzE-zbyNlQ/feedshare-shrink_1280/B56ZgOVvkhHUAk-/0/1752587242185?e=1758153600&v=beta&t=tQq9m-P_piVZBYcDCQBpriztm8NonKoObNTRgAuB2Uc',
     ],
+  },
+  {
+    id: 'aizone-ecommerce-store',
+    title: 'AIZONE E-commerce Store UI/UX Concept',
+    category: 'UI/UX Design',
+    thumbnail: 'https://media.licdn.com/dms/image/v2/D5622AQFKG0UoyjoysQ/feedshare-shrink_1280/B56ZkAu_VuHIAs-/0/1756653944038?e=1759968000&v=beta&t=GdN8JcerssYaIFmhJsYsbzEH1XCdQadHKxSBnGWQBlk',
+    overview: 'Focused on intuitive navigation, product discovery, and a seamless checkout flow to enhance customer engagement and boost conversions. Always excited to bring creative, user-first digital experiences to life ✨',
+    objection: 'Design an e-commerce store with intuitive navigation and seamless checkout.',
+    problems: [
+      'Complex navigation hindering product discovery.',
+      'Complicated checkout process leading to cart abandonment.',
+    ],
+    solution: [
+      'Intuitive navigation and product discovery.',
+      'Seamless checkout flow.',
+      'Enhanced customer engagement features.',
+    ],
+    impact: [
+      'Improved user experience.',
+      'Increased customer engagement and conversions.',
+    ],
+    process: [
+        'User Research',
+        'Wireframing',
+        'UI Design',
+        'Prototyping & Testing',
+    ],
+    tools: ['Figma'],
+    links: {
+      behance: 'https://www.behance.net/fuyaram',
+      dribbble: 'https://dribbble.com/CHAVDA365',
+      linkedin: 'https://www.linkedin.com/in/finshchavda/',
+    },
+    gallery: [
+        'https://media.licdn.com/dms/image/v2/D5622AQFKG0UoyjoysQ/feedshare-shrink_1280/B56ZkAu_VuHIAs-/0/1756653944038?e=1759968000&v=beta&t=GdN8JcerssYaIFmhJsYsbzEH1XCdQadHKxSBnGWQBlk',
+        'https://media.licdn.com/dms/image/v2/D5622AQEKjejd4QLWNA/feedshare-shrink_1280/B56ZkAu_WDHQAs-/0/1756653944116?e=1759968000&v=beta&t=jvmnT1t3Mkqb3LwOx6YWCTo-VB0MhNG-3IbJvlR4McA',
+    ],
+  },
+  {
+    id: 'google-ecommerce-store',
+    title: 'Google E-commerce Store UI/UX',
+    category: 'UI/UX Design',
+    thumbnail: 'https://media.licdn.com/dms/image/v2/D5622AQEI_qGpdBeM3g/feedshare-shrink_1280/B56ZkAu0CbG4As-/0/1756653898837?e=1759968000&v=beta&t=WXEugAkWx4RRWBEFJRPEwk6zpb-y5o94tlIKypQfwIs',
+    overview: 'Focused on creating a clean, modern, and conversion-driven experience with smooth navigation, responsive layouts, and user-friendly product flows. Excited to keep building impactful digital experiences for brands ✨',
+    objection: 'Design a clean, modern, and conversion-driven e-commerce experience for Google.',
+    problems: [
+        'Complex navigation and product flows.',
+        'Inconsistent user experience across devices.',
+    ],
+    solution: [
+        'Clean and modern UI.',
+        'Smooth navigation and responsive layouts.',
+        'User-friendly and conversion-driven product flows.',
+    ],
+    impact: [
+        'Significantly improved user experience and satisfaction.',
+        'Increased conversion rates through streamlined flows.',
+    ],
+    process: [
+        'Market Research',
+        'Persona Creation',
+        'Information Architecture',
+        'Visual Design & Branding',
+    ],
+    tools: ['Figma', 'Adobe XD'],
+    links: {
+      behance: 'https://www.behance.net/fuyaram',
+      dribbble: 'https://dribbble.com/CHAVDA365',
+      linkedin: 'https://www.linkedin.com/in/finshchavda/',
+    },
+    gallery: [
+        'https://media.licdn.com/dms/image/v2/D5622AQEI_qGpdBeM3g/feedshare-shrink_1280/B56ZkAu0CbG4As-/0/1756653898837?e=1759968000&v=beta&t=WXEugAkWx4RRWBEFJRPEwk6zpb-y5o94tlIKypQfwIs',
+        'https://media.licdn.com/dms/image/v2/D5622AQFQ27zRFz8FEg/feedshare-shrink_1280/B56ZkAu0ChHIA4-/0/1756653899982?e=1759968000&v=beta&t=sjBJ0NAHvDIapxILr3rr-zph6f6AYKubE4U_cB2ktyc',
+        'https://media.licdn.com/dms/image/v2/D5622AQGF8DnbQUE3kQ/feedshare-shrink_1280/B56ZkAu0BYHAA0-/0/1756653898654?e=1759968000&v=beta&t=Q5n2QKMx3-QszPBL8ycatK1b95Is_MtA2bh8GFIWSpA',
+        'https://media.licdn.com/dms/image/v2/D5622AQGEYsuuzjFXbA/feedshare-shrink_1280/B56ZkAu0BkH8A0-/0/1756653898363?e=1759968000&v=beta&t=Y8NpW0225JwIxAxG5ySiOKEHhxMAYhYDdpT8q5CYE0E',
+        'https://media.licdn.com/dms/image/v2/D5622AQFUc2yCdHGKNA/feedshare-shrink_1280/B56ZkAu0CcHIAs-/0/1756653899059?e=1759968000&v=beta&t=kGlPRCYlI3KRpt7OJ3VNAE8mgVnNyWpUO0Y1p-RqRR8',
+    ],
   }
 ];
-
