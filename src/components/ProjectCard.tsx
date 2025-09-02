@@ -21,14 +21,13 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     <Dialog>
       <Card className="overflow-hidden flex flex-col h-full group">
         <CardHeader className="p-0">
-          <div className="bg-muted aspect-auto overflow-hidden">
+          <div className="bg-muted aspect-video overflow-hidden relative">
             <Image
               src={project.thumbnail}
               alt={project.title}
-              width={800}
-              height={600}
+              fill
               data-ai-hint={`${project.category.toLowerCase()}`}
-              className="object-contain w-full h-auto group-hover:scale-105 transition-transform duration-500"
+              className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
             />
           </div>
         </CardHeader>
