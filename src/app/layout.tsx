@@ -6,6 +6,9 @@ import ChatBot from "@/components/ChatBot";
 export const metadata: Metadata = {
   title: "Fuya's Portfolio",
   description: "Portfolio of Fuya, UI/UX Designer and Developer.",
+  icons: {
+    icon: [],
+  }
 };
 
 export default function RootLayout({
